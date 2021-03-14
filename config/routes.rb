@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   
   resources :users, only: [:index, :show, :create] do
     member do
-      get :linkes
+      get :likes
       #一覧を取得するためのルーティング
     end
   end
